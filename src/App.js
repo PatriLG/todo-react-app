@@ -35,6 +35,7 @@ function App() {
     <div className="App">
       <h1>Todo List</h1>
       <ItemForm addItem={addItem} />
+      <p>HOLA MUNDO</p>
       <ul className="ItemList">
         {items.map((item, index) => (
           <Item
